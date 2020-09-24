@@ -20,16 +20,12 @@ h6 {
   @include heading-font;
 }
 
-video {
+.background {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
+  width: 100vw;
+  height: 100vh;
   z-index: 0;
+  object-fit: cover;
 }
 
 @media (pointer: coarse) and (hover: none) {

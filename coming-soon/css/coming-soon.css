@@ -26,16 +26,13 @@ h6 {
   font-weight: 700;
 }
 
-video {
+.background {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
+  width: 100vw;
+  height: 100vh;
   z-index: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @media (pointer: coarse) and (hover: none) {
@@ -123,7 +120,7 @@ video {
     padding-right: 10rem;
   }
   .masthead .masthead-content h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .masthead .masthead-content p {
     font-size: 1.3rem;
