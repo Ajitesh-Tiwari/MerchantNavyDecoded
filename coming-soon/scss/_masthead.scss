@@ -18,7 +18,7 @@
   }
   .masthead-content {
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     p {
       font-size: 1.2rem;
@@ -27,17 +27,18 @@
       }
     }
     .input-group-newsletter {
-      input {
-        height: auto;
-        font-size: 1rem;
-        padding: 1rem;
-      }
+      // input {
+      //   height: auto;
+      //   font-size: 1rem;
+      //   padding: 1rem;
+      // }
       button {
         font-size: 0.8rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1rem;
+        width: 100%;
       }
     }
   }
@@ -58,7 +59,7 @@
       padding-left: 3rem;
       padding-right: 10rem;
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       p {
         font-size: 1.3rem;
