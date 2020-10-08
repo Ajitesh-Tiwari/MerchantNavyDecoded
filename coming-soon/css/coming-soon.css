@@ -74,7 +74,7 @@ h6 {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(205, 149, 87, 0.9);
+  background-color: rgba(205, 149, 87, 0.8);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
