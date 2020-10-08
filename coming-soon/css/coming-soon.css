@@ -74,7 +74,7 @@ h6 {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(205, 149, 87, 0.8);
+  background-color: rgba(205, 149, 87, 0.9);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -89,6 +89,10 @@ h6 {
 
 .masthead .masthead-content p strong {
   font-weight: 700;
+}
+
+.masthead .masthead-content img {
+  width: 320px;
 }
 
 .masthead .masthead-content .input-group-newsletter button {
